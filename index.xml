@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sami</title>
+    <link>/</link>
+    <description>Recent content on Sami</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 19 Jan 2019 17:32:22 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book: The Bitcoin Standard</title>
+      <link>/book-bitcoin-standard/</link>
+      <pubDate>Sat, 19 Jan 2019 17:32:22 +0100</pubDate>
+      
+      <guid>/book-bitcoin-standard/</guid>
+      <description>The Bitcoin Standard by Saifedean Ammous is an enjoyable and insightful read on the economics of Bitcoin and the impact the cryptocurrency can have on world economies. I would certainly recommend it to anyone interested in learning more about Bitcoin.  Overview The book is logically split into two parts.
+Chapters 1-7: The author examines the various forms of money and its properties. They then review the economic systems and money standards employed throughout history, as well as the impact each that had on societies and their productivity.</description>
+    </item>
+    
+    <item>
+      <title>Book: Sapiens (Chap 1)</title>
+      <link>/sapiens-1/</link>
+      <pubDate>Wed, 01 Aug 2018 14:13:42 +0100</pubDate>
+      
+      <guid>/sapiens-1/</guid>
+      <description>I bought the book recently and began reading on the plane. It&amp;rsquo;s taking more time than usual to progress through because I&amp;rsquo;ve been taking notes and re-reading for retention.
+In fact, my primary goal is to finish the book being able to recall as many of interesting facts and theories as I could.
+ 13.5b years ago, matter, energy, time and space came into being 13.2b years ago, matter and energy started coalescing into complex structures, called atoms.</description>
+    </item>
+    
+    <item>
+      <title>Book: Flatland</title>
+      <link>/flatland/</link>
+      <pubDate>Thu, 01 Feb 2018 14:13:42 +0100</pubDate>
+      
+      <guid>/flatland/</guid>
+      <description>Author: Edwin Abbott Abbott Link: https://www.amazon.co.uk/Flatland-Romance-Dimensions-Dover-Thrift/dp/048627263X
+One of the shorter books I have a read, a mere 100 pages were enough to fascinate me and reaffirm my long-standing belief about how little we know about the world.
+The book is entitled Flatland because it narrates the story of a square living in a 2D world. By 2D world, you can go ahead and imagine a flat white sheet of paper on which a square is drawn - yes that is our main character.</description>
+    </item>
+    
+  </channel>
+</rss>
