@@ -1,22 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sami</title>
-    <link>/tags/</link>
+    <link>skfarhat.github.io/tags/</link>
     <description>Recent content in Tags on Sami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Sat, 19 Jan 2019 17:32:22 +0100</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="skfarhat.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Books</title>
-      <link>/tags/books/</link>
+      <title>books</title>
+      <link>skfarhat.github.io/tags/books/</link>
       <pubDate>Sat, 19 Jan 2019 17:32:22 +0100</pubDate>
       
-      <guid>/tags/books/</guid>
+      <guid>skfarhat.github.io/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>skfarhat.github.io/tags/software/</link>
+      <pubDate>Wed, 19 Sep 2018 20:11:23 +0100</pubDate>
+      
+      <guid>skfarhat.github.io/tags/software/</guid>
       <description></description>
     </item>
     

@@ -1,43 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/book-bitcoin-standard/</loc>
+    <loc>skfarhat.github.io/book-bitcoin-standard/</loc>
     <lastmod>2019-01-19T17:32:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/sapiens-1/</loc>
+    <loc>skfarhat.github.io/tags/books/</loc>
+    <lastmod>2019-01-19T17:32:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>skfarhat.github.io/</loc>
+    <lastmod>2019-01-19T17:32:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>skfarhat.github.io/tags/</loc>
+    <lastmod>2019-01-19T17:32:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>skfarhat.github.io/db-tx-race-conditions/</loc>
+    <lastmod>2018-09-19T20:11:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>skfarhat.github.io/tags/software/</loc>
+    <lastmod>2018-09-19T20:11:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>skfarhat.github.io/about/</loc>
+    <lastmod>2018-09-08T14:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>skfarhat.github.io/sapiens-1/</loc>
     <lastmod>2018-08-01T14:13:42+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/flatland/</loc>
+    <loc>skfarhat.github.io/flatland/</loc>
     <lastmod>2018-02-01T14:13:42+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/books/</loc>
-    <lastmod>2019-01-19T17:32:22+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-01-19T17:32:22+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-01-19T17:32:22+01:00</lastmod>
-    <priority>0</priority>
+    <loc>skfarhat.github.io/categories/</loc>
   </url>
   
 </urlset>

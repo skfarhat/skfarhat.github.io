@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Sami</title>
+    <link>skfarhat.github.io/tags/software/</link>
+    <description>Recent content in software on Sami</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 19 Sep 2018 20:11:23 +0100</lastBuildDate>
+    
+	<atom:link href="skfarhat.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Race conditions in database transactions</title>
+      <link>skfarhat.github.io/db-tx-race-conditions/</link>
+      <pubDate>Wed, 19 Sep 2018 20:11:23 +0100</pubDate>
+      
+      <guid>skfarhat.github.io/db-tx-race-conditions/</guid>
+      <description>This post outlines different kinds of race conditions that may occur when database transactions are executed concurrently.
+   Race Conditions     Dirty Reads   Dirty Writes   Read Skew   Lost updates   Write Skew    1. Dirty Reads Dirty Reads occur when a transaction T1 reads another transaction T2&#39;s result before T2 has committed its transaction. Dirty reads are problematic since uncommitted writes can always be reversed or changed again.</description>
+    </item>
+    
+  </channel>
+</rss>
