@@ -32,6 +32,9 @@ article a {
   font-weight: bold;
   text-decoration:underline;
 }
+#sf-projects-div {
+  text-align: initial; /* unset the text-align: justify */;
+}
 /*
  * See hyde-hyde.css
  * for @media config of .main-image
