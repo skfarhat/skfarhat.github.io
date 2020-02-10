@@ -223,7 +223,8 @@ function removeMaxWidthConstraintOnArticle() {
   // Override default width=900px to have a big table
   const articleDOM = $('#sf-projects-table').closest('article')
   articleDOM.css('max-width', 'none')
-  articleDOM.parents('article').css('max-width', 'none')
+  articleDOM.parents('.content1').css({padding: '20px 20px 0px'})
+  articleDOM.parents('article').css({maxWidth: 'none'})
 }
 
 function getDOMForProject(project, headers) {
