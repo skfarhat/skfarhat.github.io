@@ -78,6 +78,7 @@ const projects = [
     "Year": 2013,
     "Project": "manutdlebanon.com",
     "Where": "For Friend",
+    "project_link": "http://manutdlebanon.com",
     "Languages": "PHP",
     "Description": "Developed and maintain website for a Lebanese football supporter's club. The site routinely crawls and scrapes the web to update upcoming fixtures and previous results, thus updating itself.",
   },
@@ -163,7 +164,7 @@ const projects = [
   },
   {
     "hidden": false,
-    "Year": 2017,
+    "Year": 2016,
     "Project": "FetchMyBeer",
     "Where": "Personal",
     "Languages": "Python, C++, OpenCV, RaspberryPi",
@@ -173,6 +174,7 @@ const projects = [
     "hidden": false,
     "Year": 2017,
     "Project": "Game Of Life",
+    "project_link": "https://github.com/skfarhat/game-of-life",
     "Where": "Oxford",
     "Languages": "Java, Gradle",
     "Description": "Assignment for OOP graduate course - an agent based model system with Wolf, Deer and Grass objects moving, reproducing and consuming one another. System designed with emphasis on modularity, plugability and flexibility.",
@@ -216,6 +218,7 @@ const projects = [
     "Where": "Oxford",
     "Languages": "NodeJS, JS, Solidity (Ethereum), MongoDB",
     "Description": "A decentralised Airbnb-like property letting system built on the Ethereum blockchain.",
+    "project_link": "https://github.com/skfarhat/ethbnb"
   }
 ]
 
@@ -241,19 +244,34 @@ function renderTable(projects) {
   const headers = ['Year', 'Project', 'Where', 'Languages', 'Description']
   const thead = document.createElement('thead')
   const headRow = document.createElement('tr')
-  const tbody = document.createElement('tbody')
+  const displayedProjects = projects.filter(prj => isSet(prj.hidden) && prj.hidden === false)
   headers.forEach(header => $(headRow).append('<th>' + header + '</th>'))
-  projects
-    .filter(prj => isSet(prj.hidden) && prj.hidden === false)
-    .forEach(project => $(tbody).append(getDOMForProject(project, headers)))
   $(thead).append(headRow)
-  $('#sf-projects-table').append(thead, tbody)
   // Create Table
+  $('#sf-projects-table').append(thead)
   $('#sf-projects-table').DataTable({
-    'paging': false, // don't do paging
-    'info': false, // don't show information at bottom of table (e.g. 'Showing xx')
-    'order': [[0, 'desc']],
-    // "columns": [{ "visible": false }, null, null, null, null, null ],
+    data: displayedProjects,
+    paging: false, // don't do paging
+    info: false, // don't show information at bottom of table (e.g. 'Showing xx')
+    order: [[0, 'desc']],
+    columns: [{name: 'Year', data: 'Year'}, {data: 'Project'},{data: 'Where'},  {data: 'Languages'}, {data: 'Description'}],
+    columnDefs: [{
+      // The `data` parameter refers to the data for the cell (defined by the
+      // `data` option, which defaults to the column being worked with, in
+      // this case `data: 0`.
+      render: function (data, type, row) {
+        if (isSet(row.project_link)) {
+          const aDOM = document.createElement('a')
+          aDOM.href = row.project_link
+          aDOM.target = '_blank'
+          aDOM.innerHTML = data
+          return aDOM.outerHTML
+        } else{
+          return data
+        }
+      },
+      "targets": 1
+    }],
   })
   // Adjust Search area layout
   const filterDiv = $('#sf-projects-table_filter')
